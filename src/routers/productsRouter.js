@@ -21,7 +21,7 @@ productsRouter.route('/').get((req,res)=>{
           const products = await db.collection('products').find().toArray();
           res.render('products',{
             products,
-          })
+          });
       
         } catch (error) {
           debug(error.stack);
