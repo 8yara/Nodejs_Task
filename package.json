@@ -1,0 +1,36 @@
+{
+  "name": "nodejs_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "set DEBUG=app,app:* & nodemon app.js",
+    "debug": "set DEBUG=* & nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8yara/Nodejs_Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8yara/Nodejs_Task/issues"
+  },
+  "homepage": "https://github.com/8yara/Nodejs_Task#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "chalk": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "jquery": "^3.6.0",
+    "mongodb": "^4.8.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}

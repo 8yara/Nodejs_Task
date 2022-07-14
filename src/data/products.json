@@ -1,0 +1,14 @@
+[
+    {
+        "id":0,
+        "Name":"iPhone 13 Pro Max",
+        "Image":"/images/iPhone13ProMax.png",
+        "description":"Ceramic Shield front Textured matte glass back and stainless steel design ,Weight: 8.46 ounces (240 grams),Capacity:(128GB,256G,512GB"
+    },
+    {
+        "id":1,
+        "Name":"iPad Pro ",
+        "Image":"/images/ipadPro.png",
+        "description":"M1 chip. With M1, iPad Pro is the fastest device of its kind. It’s designed to take full advantage of next‑level performance and custom technologies like the advanced image signal processor and unified memory architecture of M1."
+    }
+]
